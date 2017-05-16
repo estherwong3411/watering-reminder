@@ -1,0 +1,77 @@
+body {
+  background: url("https://upload.cc/i/XYZ4ye.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:30% 0%;
+  max-height: 400px; 
+  max-width: 400px;
+}
+
+img {max-width: 300px;}
+
+.login {
+  margin: 0 auto;
+  margin-top: -75%;
+  max-width: 400px;/* TAKE THIS OUT WHEN YOU FIX THE IMAGE */
+}
+.login h1 {
+  background-image: linear-gradient(top, #f1f3f3, #d4dae0);
+  border-bottom: 1px solid #a6abaf;
+  border-radius: 6px 6px 0 0;
+  color: #727678;
+  max-height: 43px;
+  font: 600 14px/1 'Open Sans', sans-serif;
+  padding-top: 14px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
+  max-width: 400px;
+}
+input[type="password"], input[type="text"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  color: #696969;
+  height: 39px;
+  margin: 10px auto;
+  padding: 6px;
+  transition: box-shadow 0.3s;
+  width: 100%;
+  max-width: 400px;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  max-width: 400px;
+}
+
+.forgot {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  text-decoration: none;
+  max-width: 400px;
+}
+.forgot:hover { color: #3b3b3b }
+
+
+.signup {
+  margin-top: 30px;
+  max-width: 400px;
+}
+
+.customButt {
+  width:100%;
+  padding: 10px 29%;
+  font-family:Arial, "Helvetica", sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-align:center;
+  cursor:pointer;
+  border-radius: 10px;
+  background: rgba(200,230,255,0.5);
+  max-width: 400px;
+}
